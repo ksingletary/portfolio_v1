@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Hero from '../components/index/Hero'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
 
@@ -28,14 +29,14 @@ export default function Home() {
   return (
     <div onLoadStart={() => { observePage() }}>
       <Head>
-        <title>Keith Singletary | Frontend Designer and Developer</title>
+        <title>Keith Singletary | Frontend Engineer</title>
         <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div>
-        
+        <Navbar />
         <Hero />
         
       </div>

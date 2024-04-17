@@ -23,9 +23,7 @@ export default function Hero() {
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                                     Frontend 
-                                    <a href="https://github.com/bdgcypher" target="_blank" className="text-xl mx-2 text-green-500 hover:text-green-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Coder /&#62;</b></a> 
-                                    and 
-                                    <a href="https://www.figma.com/file/q1aDGIHSrdusRIj4vRAhLg/Portfolio-website-v2?node-id=0%3A1&t=wwHAduM5Or1F60Wy-1" target="_blank"  className="text-xl md:text-3xl text-indigo-500 hover:text-indigo-300 transition duration-300 ease-in-out">&#10024;<b>Designer</b>&#10024;</a>
+                                    <a href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-green-500 hover:text-green-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Engineer /&#62;</b></a>                                 
                                 </div>
                             </div>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
@@ -33,7 +31,7 @@ export default function Hero() {
                     </div>
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <img src="/manOnTable.svg" alt="Man on phone leaning against desk" className="w-2/3" />
+                            <img src="/manOnComp.png" alt="Man on computer looking at code" className="w-7/8" />
                         </div>
                     </Tilt>
 
