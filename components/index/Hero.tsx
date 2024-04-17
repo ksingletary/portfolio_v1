@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 export default function Hero() {
 
     return (
-        <div id="home" className="h-full pt-10 md:pt-40 bg-tertiary dark:bg-raisin text-black dark:text-white">
+        <div id="home" className="h-full pt-10 md:pt-40 bg-gray-800 dark:bg-red text-black dark:text-white">
             <div id="homeSection" className="page-section px-2 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
