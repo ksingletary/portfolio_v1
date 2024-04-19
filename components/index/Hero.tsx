@@ -10,7 +10,7 @@ export default function Hero() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mt-14 mb-16 justify-center">
-                            <img src="/manOnTable.svg" alt="Man on phone leaning on desk" className="w-2/3" />
+                            <img src="/manOnComp.png" alt="Man on comp sitting on couch" className="w-2/3" />
                         </div>
                     </Tilt>
 
@@ -23,7 +23,7 @@ export default function Hero() {
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                                     Frontend 
-                                    <a href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-green-500 hover:text-green-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Engineer /&#62;</b></a>                                 
+                                    <a href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-orange-500 hover:text-orange-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Engineer /&#62;</b></a>                                 
                                 </div>
                             </div>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
@@ -38,10 +38,10 @@ export default function Hero() {
                 </div>
             </div>
             <svg className="-mt-0 lg:-mt-10 lg:-mt20 block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#FCFCFC" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
+                <path fill="black" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
             <svg className="-mt-0 lg:-mt-10 lg:-mt20 hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#1E1F1F" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
+                <path fill="black" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
         </div>
     )
