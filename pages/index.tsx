@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Hero from '../components/index/Hero'
 import Navbar from '../components/Navbar'
+import About from '@/components/index/About'
 
 export default function Home() {
 
@@ -38,6 +39,7 @@ export default function Home() {
       <div>
         <Navbar />
         <Hero />
+        <About />
         
       </div>
     </div>
