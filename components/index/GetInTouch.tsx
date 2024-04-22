@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 export default function GetInTouch() {
 
     return (
-        <div className="h-full py-10 md:py-40 bg-tertiary dark:bg-raisin text-black dark:text-white">
+        <div className="h-full py-10 md:py-40 bg-tertiary dark:bg-raisin text-black dark:text-white dark:bg-gray-800">
             <div className="px-4 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
