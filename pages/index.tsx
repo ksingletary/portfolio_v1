@@ -4,6 +4,7 @@ import Hero from '../components/index/Hero'
 import Navbar from '../components/Navbar'
 import About from '@/components/index/About'
 import Discover from '@/components/index/Discover'
+import GetInTouch from '@/components/index/GetInTouch'
 
 export default function Home() {
 
@@ -42,6 +43,7 @@ export default function Home() {
         <Hero />
         <About />
         <Discover />
+        <GetInTouch />
         
       </div>
     </div>
