@@ -1,7 +1,7 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
 // import ProjectLeft from './ProjectLeft';
-// import ProjectRight from './ProjectRight';
+import ProjectRight from './ProjectRight';
 
 export default function Projects() {
 
@@ -34,21 +34,21 @@ export default function Projects() {
                 <div>
                     <ProjectRight
                         title="Voyagr"
-                        shortDescription="My own spin on a Full fledged travel agency frontend."
+                        shortDescription="My own spin on a Fullstack travel agency."
                         siteLink="https://voyagr.onrender.com/voyagr"
                         sourceCodeLink="https://github.com/ksingletary/voyagr"
                         designLink=""
-                        img1="xplore.jpg"
-                        img2="xplore2.png"
-                        img3="xplore3.png"
+                        img1="voyagr.png"
+                        img2="voyagr1.png"
+                        img3="voyagr2.png"
                         header="Looking professional"
                         longDescription="Voyagr is an impressive fullstack travel website comprised of 11 pages, loads of animations and effects, 
                         beautiful design elements and color scheming, and lots of work to make this 'practice' project as close to industry standard as you can get.
                         This project forced me to expand my abilities as a designer and developer and push for excellence."
-                        skillsArray={["Python", "HTML", "CSS", "Flask", "Tailwind", "Postgres"]}
+                        skillsArray={["Python", "HTML", "CSS", "Flask", "Tailwind", "Postgresql"]}
                     />
                 </div>
-                <div>
+                {/* <div>
                     <ProjectLeft
                         title="Summify"
                         shortDescription="Summarizing Articles"
@@ -64,7 +64,7 @@ export default function Projects() {
                         This project forced me to expand my abilities as a designer and developer and push for excellence."
                         skillsArray={["JavaScript", "HTML", "CSS", "Figma", "React", "Tailwind"]}
                     />
-                </div>
+                </div> */}
                 {/* <div>
                     <ProjectRight
                         title="Summify"

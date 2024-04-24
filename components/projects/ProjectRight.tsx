@@ -1,4 +1,4 @@
-// import Skills from "./Skills";
+import Skills from "./Skills";
 import { BiCodeAlt, BiLinkExternal } from "react-icons/bi"
 import { MdDevices, MdOutlinePalette } from "react-icons/md";
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Projects from '@/components/projects/Projects';
 import ProjectsHero from '../components/projects/ProjectsHero';
 
 
@@ -53,7 +54,8 @@ export default function Discover() {
             </Head>
 
             <div>
-                <ProjectsHero />                
+                <ProjectsHero />        
+                <Projects />        
             </div>
         </div>
     )
