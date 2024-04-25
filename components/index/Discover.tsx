@@ -70,7 +70,7 @@ export default function Discover() {
                             </div>
                         </div>
                     </a>
-                    <a target="_blank" href="" aria-label="View Item" className="discover from-bottom third h-auto">
+                    <a target="_blank" href="https://voyagr.onrender.com/voyagr" aria-label="View Item" className="discover from-bottom third h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"

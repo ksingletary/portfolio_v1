@@ -47,6 +47,18 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                         ) : (null)
                     }
                     {
+                        skillsArray.includes("Python") ? (
+                            <>
+                                <li className="flex">
+                                    <span className="mr-2">
+                                        <SiPython title="Python logo" className="text-black dark:text-white" />
+                                    </span>
+                                    Python
+                                </li>
+                            </>
+                        ) : (null)
+                    }
+                    {
                         skillsArray.includes("Figma") ? (
                             <>
                                 <li className="flex">
@@ -104,18 +116,6 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                                         <SiTypescript title="TypeScript logo" className="text-blue-400" />
                                     </span>
                                     TypeScript
-                                </li>
-                            </>
-                        ) : (null)
-                    }
-                    {
-                        skillsArray.includes("Python") ? (
-                            <>
-                                <li className="flex">
-                                    <span className="mr-2">
-                                        <SiPython title="Python logo" className="text-black dark:text-white" />
-                                    </span>
-                                    Python
                                 </li>
                             </>
                         ) : (null)

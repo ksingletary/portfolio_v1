@@ -1,7 +1,8 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
-// import ProjectLeft from './ProjectLeft';
+import ProjectLeft from './ProjectLeft';
 import ProjectRight from './ProjectRight';
+
 
 export default function Projects() {
 
@@ -48,23 +49,24 @@ export default function Projects() {
                         skillsArray={["Python", "HTML", "CSS", "Flask", "Tailwind", "Postgresql"]}
                     />
                 </div>
-                {/* <div>
+                <div>
                     <ProjectLeft
-                        title="Summify"
-                        shortDescription="Summarizing Articles"
-                        siteLink=""
+                        title="Talent House"
+                        shortDescription="Talenthouse is a platform connecting creators with brands for collaborations in art, design, and content creation, fostering creative opportunities globally."
+                        siteLink="https://talenthouse.llc/"
                         sourceCodeLink=""
                         designLink=""
-                        img1=""
-                        img2=""
+                        img1="talenthouse1.png"
+                        img2="talenthouse.png"
                         img3=""
-                        header="Looking professional"
-                        longDescription="Xplore is an impressive travel website frontend comprised of 11 pages, loads of animations and effects, 
-                        beautiful design elements and color scheming, and lots of work to make this 'practice' project as close to industry standard as you can get.
-                        This project forced me to expand my abilities as a designer and developer and push for excellence."
-                        skillsArray={["JavaScript", "HTML", "CSS", "Figma", "React", "Tailwind"]}
+                        header="Breaking into the tech world"
+                        longDescription="Since mid-2023, I've been a contracted Frontend Developer at Talenthouse, a platform that uses AI 
+                        to revolutionize talent acquisition.  I've wielded React to craft a dynamic web app, but my skills extended beyond the frontlines - 
+                        I've dipped my toes in backend development as well. While I wouldn't call myself a full-stack engineer just yet, I'm always eager to learn and grow across the tech stack.
+                        "
+                        skillsArray={["JavaScript", "HTML", "CSS", "React", "Tailwind"]}
                     />
-                </div> */}
+                </div>
                 {/* <div>
                     <ProjectRight
                         title="Summify"
