@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import About from '@/components/index/About'
 import Discover from '@/components/index/Discover'
 import GetInTouch from '@/components/index/GetInTouch'
+import Testimonials from '@/components/index/Testimonials'
 
 export default function Home() {
 
@@ -44,7 +45,7 @@ export default function Home() {
         <About />
         <Discover />
         <GetInTouch />
-        
+        <Testimonials />
       </div>
     </div>
   )
