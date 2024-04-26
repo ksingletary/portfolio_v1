@@ -6,6 +6,7 @@ import About from '@/components/index/About'
 import Discover from '@/components/index/Discover'
 import GetInTouch from '@/components/index/GetInTouch'
 import Testimonials from '@/components/index/Testimonials'
+import MyPic from '@/components/index/MyPic'
 
 export default function Home() {
 
@@ -46,6 +47,7 @@ export default function Home() {
         <Discover />
         <GetInTouch />
         <Testimonials />
+        <MyPic />
       </div>
     </div>
   )
