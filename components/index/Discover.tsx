@@ -55,17 +55,17 @@ export default function Discover() {
                             </div>
                         </div>
                     </a>
-                    <a target="_blank" href="" aria-label="View Item" className="discover from-bottom second h-auto">
+                    <a target="_blank" href="https://cfacapcentre-steeplechase.netlify.app/" aria-label="View Item" className="discover from-bottom second h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
-                                src="/voyagr.png"
-                                alt="EXAMPLE"
+                                src="/cfa0.png"
+                                alt="chick-fil-a site page"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
-                                <p className="mb-4 text-3xl font-bold text-gray-100">EXAMPLE 2</p>
+                                <p className="mb-4 text-3xl font-bold text-gray-100">Chick-fil-A</p>
                                 <p className="text-xl tracking-wide text-gray-300">
-                                    EXAMPLE 2
+                                    Individual Chick-fil-A frontend built for two stores in the same area.
                                 </p>
                             </div>
                         </div>

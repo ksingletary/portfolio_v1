@@ -2,7 +2,7 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { BiArrowBack } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiNodedotjs, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
 
 export default function ProjectsHero() {
   return (
@@ -97,6 +97,12 @@ export default function ProjectsHero() {
                       <SiFlask title="flask logo" className="text-black dark:text-white" />
                     </span>
                     Flask
+                  </li>
+                  <li className="flex">
+                    <span className="mr-2">
+                      <SiNodedotjs title="node logo" className="text-black dark:text-white" />
+                    </span>
+                    Node.js
                   </li>
                 </ul>
               </div>

@@ -47,7 +47,7 @@ export default function Projects() {
                         to revolutionize talent acquisition.  I've wielded React to craft a dynamic web app, but my skills extended beyond the frontlines - 
                         I've dipped my toes in backend development as well. While I wouldn't call myself a full-stack engineer just yet, I'm always eager to learn and grow across the tech stack.
                         "
-                        skillsArray={["JavaScript", "HTML", "CSS", "React", "Tailwind"]}
+                        skillsArray={["JavaScript", "HTML", "CSS", "React", "Nextjs", "Tailwind"]}
                     />
                 </div>
                 <div>
@@ -67,23 +67,22 @@ export default function Projects() {
                         skillsArray={["Python", "HTML", "CSS", "Flask", "Tailwind", "Postgresql"]}
                     />
                 </div>
-                {/* <div>
+                <div>
                     <ProjectRight
-                        title="Summify"
-                        shortDescription="Summarizing Articles"
-                        siteLink=""
-                        sourceCodeLink=""
+                        title="Chick-fil-A"
+                        shortDescription="Built a user-friendly website for two Chick-fil-A franchises, ensuring seamless user experience and adherence to all Chick-fil-A branding guidelines."
+                        siteLink="https://cfacapcentre-steeplechase.netlify.app/catering"
+                        sourceCodeLink="https://github.com/ksingletary/chick-fil-a-contract-site-"
                         designLink=""
-                        img1=""
-                        img2=""
-                        img3=""
-                        header="Looking professional"
-                        longDescription="Xplore is an impressive travel website frontend comprised of 11 pages, loads of animations and effects, 
-                        beautiful design elements and color scheming, and lots of work to make this 'practice' project as close to industry standard as you can get.
-                        This project forced me to expand my abilities as a designer and developer and push for excellence."
-                        skillsArray={["JavaScript", "HTML", "CSS", "Figma", "React", "Tailwind"]}
+                        img1="cfa1.png"
+                        img2="cfa3.png"
+                        img3="cfa2.png"
+                        header="Bringing Chick-fil-A Online: Frontend Development"
+                        longDescription="I was able to do contract work as a Frontend developer for two Chick-fil-A free-standing stores. I built a responsive Chick-fil-A website using React Vite & Tailwind CSS for the stores in Largo & Capitol Heights, MD. 
+                        Collaboration was key - working with a corporate liaison, General Managers, and corporate engineers ensured brand adherence, local details, and a user-friendly design that reflects the Chick-fil-A experience online."
+                        skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Tailwind"]}
                     />
-                </div> */}
+                </div>
                 {/* <div>
                     <ProjectLeft
                         title="Axis"
