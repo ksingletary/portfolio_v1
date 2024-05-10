@@ -1,5 +1,5 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiVite, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiNodedotjs, SiExpress, SiVite, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
 
 export default function Skills({ skillsArray }: { skillsArray: Array<string> }) {
 
@@ -80,6 +80,30 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                                         <SiReact title="React logo" className="text-blue-300" />
                                     </span>
                                     React
+                                </li>
+                            </>
+                        ) : (null)
+                    }
+                    {
+                        skillsArray.includes("Nodejs") ? (
+                            <>
+                                <li className="flex -mt-3 md:-mt-0">
+                                    <span className="mr-2">
+                                        <SiNodedotjs title="node logo" className="text-blue-300" />
+                                    </span>
+                                    Nodejs
+                                </li>
+                            </>
+                        ) : (null)
+                    }
+                    {
+                        skillsArray.includes("Express") ? (
+                            <>
+                                <li className="flex -mt-3 md:-mt-0">
+                                    <span className="mr-2">
+                                        <SiExpress title="express logo" className="text-blue-300" />
+                                    </span>
+                                    Express
                                 </li>
                             </>
                         ) : (null)

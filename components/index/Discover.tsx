@@ -40,17 +40,17 @@ export default function Discover() {
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-6">
-                    <a target="_blank" href="" aria-label="View Item" className="discover from-bottom first h-auto">
+                    <a target="_blank" href="https://reactjobly-frontend-mf2g.onrender.com" aria-label="View Item" className="discover from-bottom first h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
                             <img
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
-                                src="/voyagr.png"
-                                alt=""
+                                src="/jobly2.png"
+                                alt="jobly pic"
                             />
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
-                                <p className="mb-4 text-3xl font-bold text-gray-100">EXAMPLE 1</p>
+                                <p className="mb-4 text-3xl font-bold text-gray-100">Jobly</p>
                                 <p className="text-xl tracking-wide text-gray-300">
-                                    EXAMPLE <i>2</i> !
+                                    Job application platform to showcase some full-stack skills!
                                 </p>
                             </div>
                         </div>

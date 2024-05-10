@@ -23,7 +23,7 @@ export default function Hero() {
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                                     Frontend 
-                                    <a href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-orange-500 hover:text-orange-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Engineer /&#62;</b></a>                                 
+                                    <a href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-orange-500 hover:text-orange-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Developer /&#62;</b></a>                                 
                                 </div>
                             </div>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>

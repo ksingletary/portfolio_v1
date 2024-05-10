@@ -38,7 +38,7 @@ export default function Projects() {
                         shortDescription="Talenthouse is a platform connecting creators with brands for collaborations in art, design, and content creation, fostering creative opportunities globally."
                         siteLink="https://talenthouse.llc/"
                         sourceCodeLink=""
-                        designLink=""
+                        designLink={null}
                         img1="talenthouse1.png"
                         img2="talenthouse.png"
                         img3=""
@@ -53,10 +53,10 @@ export default function Projects() {
                 <div>
                     <ProjectLeft
                         title="Voyagr"
-                        shortDescription="My own spin on a Fullstack travel agency."
+                        shortDescription="My own spin on a Fullstack travel agency. Completed as a Springboard project."
                         siteLink="https://voyagr.onrender.com/voyagr"
                         sourceCodeLink="https://github.com/ksingletary/voyagr"
-                        designLink=""
+                        designLink={null}
                         img1="voyagr.png"
                         img2="voyagr1.png"
                         img3="voyagr2.png"
@@ -73,7 +73,7 @@ export default function Projects() {
                         shortDescription="Built a user-friendly website for two Chick-fil-A franchises, ensuring seamless user experience and adherence to all Chick-fil-A branding guidelines."
                         siteLink="https://cfacapcentre-steeplechase.netlify.app/catering"
                         sourceCodeLink="https://github.com/ksingletary/chick-fil-a-contract-site-"
-                        designLink=""
+                        designLink={null}
                         img1="cfa1.png"
                         img2="cfa3.png"
                         img3="cfa2.png"
@@ -83,42 +83,40 @@ export default function Projects() {
                         skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Tailwind"]}
                     />
                 </div>
-                {/* <div>
+                <div>
                     <ProjectLeft
-                        title="Axis"
-                        shortDescription="A Discord-esque chat platform for me and my friends."
-                        siteLink="https://axis-chat.netlify.app"
-                        sourceCodeLink="https://github.com/bdgcypher/Axis"
+                        title="Summify"
+                        shortDescription="An application that everages OpenAI's technology to provide users with summarized versions of articles. Completed as a Springboard project."
+                        siteLink="https://summify-aoe7.onrender.com/"
+                        sourceCodeLink="https://github.com/ksingletary/summify_frontend"
                         designLink={null}
-                        img1="axis.png"
-                        img2="axis2.png"
-                        img3="axis3.png"
-                        header="Login with username and password: 'guest'"
-                        longDescription="A personal project I have been working on to improve my  knowledge of React Hooks and connect with my friends! 
-                        A full fledged web application including authentication, channels, direct messages and threads. Fully capable of sending images, videos, gifs and emojis.
-                        This is admittedly not the most beautiful design scheme, but the focus was on functionality not front-facing design. Built using the getstream api, react useContext, localStorage, and much more."
-                        skillsArray={["JavaScript", "HTML", "CSS", "React", "Tailwind"]}
+                        img1="summify1.png"
+                        img2="summify2.png"
+                        img3="summify3.png"
+                        header="Know More in Less Time"
+                        longDescription="Struggling to keep up with the news? Summify leverages OpenAI's technology to deliver clear, concise summaries of lengthy articles. 
+                        Stay informed on a wide range of topics without getting bogged down in details.  Summify streamlines your reading experience, empowering you to learn more in less time."
+                        skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Tailwind", "Nodejs", "Express", "Postgresql"]}
                     />
                 </div>
                 <div>
                     <ProjectRight
-                        title="indigo"
-                        shortDescription="An ecommerce style website to practice Tailwindcss and page layout design."
-                        siteLink="https://shop-indigo.netlify.app/"
-                        sourceCodeLink="https://github.com/bdgcypher/indigo"
-                        designLink="https://www.figma.com/file/2UlObTHpRVSisoQklbAzqJ/indigo?node-id=0%3A1&t=INodRxz8gwBB8LMo-0"
-                        img1="indigo.jpg"
-                        img2="indigo2.png"
+                        title="Jobly"
+                        shortDescription="A Springboard project created to showcase my skills as a Fullstack developer. Developed a comprehensive job application platform using various technologies."
+                        siteLink="https://reactjobly-frontend-mf2g.onrender.com/"
+                        sourceCodeLink="https://github.com/ksingletary/reactjobly-frontend"
+                        designLink={null}
+                        img1="jobly1.png"
+                        img2="jobly2.png"
                         img3=""
-                        header="Would you buy this design on Amazon?"
-                        longDescription="Indigo is an ecommerce based frontend web application created to familiarize myself with and 
-                        demonstrate use of TailwindUI template elements and is built on the React.js framework. 
-                        I was introduced to tailwind by a friend and wanted to check it out. 
-                        I spent a few hours making this site and I loved it! For anyone who doesn't use tailwind in their projects, you should!"
-                        skillsArray={["JavaScript", "HTML", "CSS", "Figma", "React", "Tailwind"]}
+                        header="Streamlined job search. Apply directly, effortlessly."
+                        longDescription="This project demonstrates my full-stack development capabilities by building a comprehensive job application platform.  
+                        The front-end utilizes React for a user-friendly interface, while the back-end leverages Express and PostgreSQL for robust data management.  
+                        To ensure code maintainability, prevent security vulnerabilities like SQL injection, and reduce redundancy, I implemented a custom object-relational mapping (ORM) layer that streamlines database interactions."
+                        skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Express", "Nodejs", "Postgresql"]}
                     />
                 </div>
-                <div>
+                {/* <div>
                     <ProjectLeft
                         title="Portfolio v1"
                         shortDescription="My first iteration at a personal website before the current redesign."
@@ -153,7 +151,7 @@ export default function Projects() {
                         This was my start to a promising career as a frontend developer."
                         skillsArray={["JavaScript", "HTML", "CSS", "React"]}
                     />
-                </div> */}
+                </div>  */}
             </div>
         </div >
     )
