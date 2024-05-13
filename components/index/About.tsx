@@ -24,11 +24,11 @@ export default function About() {
                     <div className="to-animate from-right flex flex-col w-full max-w-xl -mt-20">
                         <h1 className="mb-10 ml-0 md:ml-10 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-5xl">Creative, Excited, Hardworking</h1>
                         <p className="ml-0 md:ml-10 text-gray-700 dark:text-gray-300 text-lg md:text-2xl">
-                        Hi there! I'm Keith, a passionate <b> Frontend developer </b>with a knack for problem-solving and a burning desire to innovate in the digital space.  
+                        Hi there! I'm Keith, a passionate <b> frontend developer </b>with a knack for problem-solving and a burning desire to innovate in the digital space.  
                         I thrive on tackling challenges, and using my knowledge of <b>Javascript, Python, HTML and CSS,</b>  as well as libraries and frameworks such as <b> React.js, Nextjs, and Tailwindcss,</b>  I love leaving a lasting impact wherever I go. 
                         My leadership and management skills allow me to drive innovation in collaborative environments, and  
                         I'm actively seeking opportunities to create <b> beautiful and fully responsive web applications. </b>  Currently, I'm rapidly expanding my skillset including completing a Full-Stack Engineering bootcamp at Springboard, 
-                        while simultaneously contributing to talented teams as a Frontend contractor. 
+                        while simultaneously contributing to talented teams as a frontend contractor. 
                             
                         </p>
                     </div>

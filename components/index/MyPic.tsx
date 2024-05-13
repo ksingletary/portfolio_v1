@@ -17,7 +17,7 @@ export default function MyPic() {
             <div className="text-gray-600 dark:text-gray-400 text-md md:text-xl -mt-10">
                 <TypeIt options={{ speed: 12, waitUntilVisible: true, lifeLike: true }}
                     getBeforeInit={(instance) => {
-                        instance.type("&#47;&#47; Try moving the mouse over the 'Contact me' button ;)");
+                        instance.type("&#47;&#47; Go ahead and hit that 'Contact me' button. Let's work!");
                         return instance;
                     }}
                 ></TypeIt>

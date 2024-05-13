@@ -13,7 +13,7 @@ export default function Contact() {
                                     Let's work together
                                 </h2>
                                 <p className="mt-4 mb-10 lg:mt-0 w-full lg:w-1/3 mx-auto max-w-2xl text-center text-xl text-gray-700 dark:text-gray-300">
-                                    I am excited to learn about your next project! Reach out and we can build it together.
+                                    I'm excited to learn about your next project! Reach out and we can build it together.
                                 </p>
                                 <a href="/contact" className="h-11 w-60 mx-auto lg:ml-0 px-8 pt-2 bg-primary hover:bg-secondary bg-pink-700 transform ease-in-out duration-300 hover:-translate-y-1 font-semibold text-center text-white text-xl rounded-full shadow-xl">
                                     Contact me

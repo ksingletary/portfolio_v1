@@ -19,12 +19,13 @@ export default function ProjectsHero() {
                 Projects
               </h2>
               <p className="text-lg text-gray-800 dark:text-gray-300 md:text-xl">
-              I'm diving into the tech world and have been fortunate to collaborate on projects with startups. I've contributed through brainstorming, website design, and component creation.
+                I'm diving into the tech world and have used my creative skills to collaborate on projects with startups, and have been directly contracted with companies to build beautiful, responsive websites. 
+                My contributions span brainstorming user experiences, designing user interfaces, and crafting reusable components, demonstrating versatility and a strong foundation in web development.
               </p>
             </div>
             <div className="to-animate from-bottom mb-8">
               <p className="mb-4 text-black dark:text-white text-sm font-bold tracking-widest uppercase">
-                Skills
+                Skills & Technologies
               </p>
               <div className="grid space-y-3 sm:gap-2 grid-cols-2 lg:grid-cols-3 sm:space-y-0 text-gray-700 dark:text-gray-400">
                 <ul className="space-y-3">

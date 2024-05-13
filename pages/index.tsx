@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <div onLoadStart={() => { observePage() }}>
       <Head>
-        <title>Keith Singletary | Frontend Engineer</title>
+        <title>Keith Singletary | Frontend Developer</title>
         <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

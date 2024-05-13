@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Projects from '@/components/projects/Projects';
-import ProjectsHero from '../components/projects/ProjectsHero';
-import Contact from '@/components/index/Contact';
-import Footer from '@/components/Footer';
+import Form from '../components/contact/Form'
 
-
-export default function Discover() {
+export default function Contact() {
 
     const [darkMode, setDarkMode] = useState(false)
 
@@ -47,19 +43,16 @@ export default function Discover() {
     }, []);
 
     return (
-        <div onLoad={() => { observePage() }}>
+        <div onLoadStart={() => { observePage() }}>
             <Head>
-                <title>Keith Singletary | Frontend Engineer</title>
-                <meta name="description" content="Frontend developer, Designer, and Tech enthusiast." />
+                <title>Keith Singletary | Frontend Developer</title>
+                <meta name="description" content="Frontend developer and Tech enthusiast." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                {/* <link rel="icon" href="/favicon.ico" /> logo */}
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <div>
-                <ProjectsHero />        
-                <Projects />  
-                <Contact />
-                <Footer />
+                <Form />
             </div>
         </div>
     )

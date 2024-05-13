@@ -44,7 +44,7 @@ export default function Projects() {
                         img3=""
                         header="Breaking into the tech world"
                         longDescription="Since mid-2023, I've been a contracted Frontend Developer at Talenthouse, a startup that uses AI 
-                        to revolutionize talent acquisition.  I've wielded React to craft a dynamic web app, but my skills extended beyond the frontlines - 
+                        to revolutionize talent acquisition.  I've wielded React to help craft a dynamic web app, but my skills extended beyond the frontlines - 
                         I've dipped my toes in backend development as well. While I wouldn't call myself a full-stack engineer just yet, I'm always eager to learn and grow across the tech stack.
                         "
                         skillsArray={["JavaScript", "HTML", "CSS", "React", "Nextjs", "Tailwind"]}
@@ -77,8 +77,8 @@ export default function Projects() {
                         img1="cfa1.png"
                         img2="cfa3.png"
                         img3="cfa2.png"
-                        header="Bringing Chick-fil-A Online: Frontend Development"
-                        longDescription="I was able to do contract work as a Frontend developer for two Chick-fil-A free-standing stores. I built a responsive Chick-fil-A website using React Vite & Tailwind CSS for the stores in Largo & Capitol Heights, MD. 
+                        header="Bringing a Chick-fil-A Online"
+                        longDescription="I leveraged my Frontend development skills through freelance contracts, developing for two Chick-fil-A free-standing stores. I built a responsive Chick-fil-A website using React Vite & Tailwind CSS for the stores in Largo & Capitol Heights, MD. 
                         Collaboration was key - working with a corporate liaison, General Managers, and corporate engineers ensured brand adherence, local details, and a user-friendly design that reflects the Chick-fil-A experience online."
                         skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Tailwind"]}
                     />
@@ -86,7 +86,7 @@ export default function Projects() {
                 <div>
                     <ProjectLeft
                         title="Summify"
-                        shortDescription="An application that leverages OpenAI's technology to provide users with summarized versions of articles. Completed as a Springboard project."
+                        shortDescription="An application that uses OpenAI's technology to provide users with summarized versions of articles. Completed as a Springboard project."
                         siteLink="https://summify-aoe7.onrender.com/"
                         sourceCodeLink="https://github.com/ksingletary/summify_frontend"
                         designLink={null}
@@ -111,7 +111,7 @@ export default function Projects() {
                         img3=""
                         header="Streamlined job search. Apply directly, effortlessly."
                         longDescription="This project demonstrates my full-stack development capabilities by building a comprehensive job application platform.  
-                        The front-end utilizes React for a user-friendly interface, while the back-end leverages Express and PostgreSQL for robust data management.  
+                        The front-end utilizes React for a user-friendly interface, while the back-end uses Express and PostgreSQL for robust data management.  
                         To ensure code maintainability, prevent security vulnerabilities like SQL injection, and reduce redundancy, I implemented a custom object-relational mapping (ORM) layer that streamlines database interactions."
                         skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Express", "Nodejs", "Postgresql"]}
                     />
@@ -128,7 +128,7 @@ export default function Projects() {
                         img2="drumory.png"
                         img3=""
                         header="Here are a few small web projects!"
-                        longDescription="Web projects completed during my time at Springboard. You can find other projects of mine during my time at Springboard if you view my github."
+                        longDescription="Web projects completed during my time at Springboard. You can find other projects of mine during my time at Springboard by viewing my github."
                         skillsArray={["JavaScript", "HTML", "CSS"]}
                     />
                 </div>             
