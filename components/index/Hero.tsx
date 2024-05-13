@@ -31,7 +31,7 @@ export default function Hero() {
                     </div>
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <img src="/manOnBeanBag.png" alt="Man on computer looking at code" className="w-7/8" />
+                            <img src="/me.jpg" alt="Man on computer looking at code" className="w-2/3 rounded-full" />
                         </div>
                     </Tilt>
 

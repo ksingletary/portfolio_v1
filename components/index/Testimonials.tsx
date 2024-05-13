@@ -47,13 +47,13 @@ export default function Testimonials() {
                                 </h1>
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
-                                Keith is a bullet bike of a frontend designer and developer. He's a great team player, incredible collaborator,
-                                very creative and clever, and does excellent work. We're really grateful to have him working with us.
+                                Keith brings incredible efficiency to his role as a frontend developer. 
+                                He's a creative problem-solver and a fantastic collaborator, consistently exceeding expectations. Having him on the team is a true advantage.
                             </p>
                             <div className="flex items-center">
                                 <img
-                                    src="/blankHead.jpeg"
-                                    alt="blank pic"
+                                    src="/talenthouseLLC.png"
+                                    alt="talenthouse pic"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
@@ -61,7 +61,7 @@ export default function Testimonials() {
                                         Darius Hannah
                                     </p>
                                     <p className="text-sm font-medium leading-4 text-gray-700 dark:text-gray-300">
-                                        CoFounder, Talenhouse LLC.
+                                        CoFounder, Talenthouse LLC.
                                     </p>
                                 </div>
                             </div>
@@ -71,26 +71,26 @@ export default function Testimonials() {
                         <div>
                             <div className="mb-2">
                                 <h1 className="inline-block text-4xl font-bold text-black dark:text-white">
-                                    Fantastic Communicator
+                                    Collaborative Communicator
                                 </h1>
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
                                 He is a fantastic communicator, and has the ability to connect well with people of all ages. He has the ability to break down complex tasks into simple and understandable steps.
-                                He is patient, and kind. One of qualities that I appreciate the most is that he has a strong sense of ownership and responsibility over everything he does and I can trust that if I give him a task,
+                                He is patient, and kind. One of the qualities that I appreciate the most is that he has a strong sense of ownership and responsibility over everything he does and I can trust that if I give him a task,
                                 I know it will get done and that he will do it well.
                             </p>
                             <div className="flex items-center">
                                 <img
-                                    src="/blankHead.jpeg"
-                                    alt="picture of blank head"
+                                    src="/cfa.svg"
+                                    alt="picture of cfa"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
                                 />
                                 <div>
                                     <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary">
-                                        Insert Name
+                                        Alante Lark
                                     </p>
                                     <p className="text-sm font-medium leading-4 text-gray-700 dark:text-gray-300">
-                                        Owner, Fake Company LLC.
+                                        General Manager, Chick-fil-A
                                     </p>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ export default function Testimonials() {
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
                                 Keith is a confident, hardworking team player who is logical enough to complete complex tasks while also creative enough to problem solve and think outside the box.
-                                During his time at my company, Ben achieved every KPI and was a crucial part of development.
+                                During his time at our bootcamp, he worked well with everyone and was always giving his best.
                             </p>
                             <div className="flex items-center">
                                 <img
@@ -115,10 +115,10 @@ export default function Testimonials() {
                                 />
                                 <div>
                                     <p className="font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-primary">
-                                        Insert Name
+                                        Usman Ali
                                     </p>
                                     <p className="text-sm font-medium leading-4 text-gray-700 dark:text-gray-300">
-                                        CoFounder and CEO, Insert Company.
+                                        Software Engineer, Springboard mentor.
                                     </p>
                                 </div>
                             </div>

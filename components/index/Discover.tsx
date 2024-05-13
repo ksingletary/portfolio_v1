@@ -17,7 +17,7 @@ export default function Discover() {
                 <div className="flex flex-col mb-0 justify-left lg:justify-center lg:flex-row md:mb-8">
                     <h2 className="to-animate from-bottom mb-5 font-semibold text-3xl md:text-4xl lg:text-5xl text-black dark:text-white sm:leading-none md:mb-6 group">
                         <span className="inline-block text-center mx-20 md:mx-10">
-                            Talk is cheap, let's see some results
+                            Words are powerful, but results speak louder. 
                         </span>
                     </h2>
                 </div>
@@ -80,7 +80,7 @@ export default function Discover() {
                             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-95 opacity-0 hover:opacity-100">
                                 <p className="mb-4 text-3xl font-bold text-gray-100">Voyagr</p>
                                 <p className="text-xl tracking-wide text-gray-300">
-                                    My own spin on a Full fledged travel agency backend and frontend.
+                                    My own spin on a Fullstack travel agency for your traveling needs.
                                 </p>
                             </div>
                         </div>

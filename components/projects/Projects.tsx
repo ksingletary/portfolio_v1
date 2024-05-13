@@ -61,7 +61,7 @@ export default function Projects() {
                         img2="voyagr1.png"
                         img3="voyagr2.png"
                         header="Looking professional"
-                        longDescription="Voyagr is an impressive fullstack travel website comprised of 11 pages, loads of animations and effects, 
+                        longDescription="Voyagr is a fullstack travel website comprised of 11 pages, loads of animations and effects, 
                         beautiful design elements and color scheming, and lots of work to make this 'practice' project as close to industry standard as you can get.
                         This project forced me to expand my abilities as a designer and developer and push for excellence."
                         skillsArray={["Python", "HTML", "CSS", "Flask", "Tailwind", "Postgresql"]}
@@ -71,7 +71,7 @@ export default function Projects() {
                     <ProjectRight
                         title="Chick-fil-A"
                         shortDescription="Built a user-friendly website for two Chick-fil-A franchises, ensuring seamless user experience and adherence to all Chick-fil-A branding guidelines."
-                        siteLink="https://cfacapcentre-steeplechase.netlify.app/catering"
+                        siteLink="https://cfacapcentre-steeplechase.netlify.app/"
                         sourceCodeLink="https://github.com/ksingletary/chick-fil-a-contract-site-"
                         designLink={null}
                         img1="cfa1.png"
@@ -86,7 +86,7 @@ export default function Projects() {
                 <div>
                     <ProjectLeft
                         title="Summify"
-                        shortDescription="An application that everages OpenAI's technology to provide users with summarized versions of articles. Completed as a Springboard project."
+                        shortDescription="An application that leverages OpenAI's technology to provide users with summarized versions of articles. Completed as a Springboard project."
                         siteLink="https://summify-aoe7.onrender.com/"
                         sourceCodeLink="https://github.com/ksingletary/summify_frontend"
                         designLink={null}
@@ -94,9 +94,9 @@ export default function Projects() {
                         img2="summify2.png"
                         img3="summify3.png"
                         header="Know More in Less Time"
-                        longDescription="Struggling to keep up with the news? Summify leverages OpenAI's technology to deliver clear, concise summaries of lengthy articles. 
+                        longDescription="Struggling to keep up with the news? Summify utilizes OpenAI's technology to deliver clear, concise summaries of lengthy articles. 
                         Stay informed on a wide range of topics without getting bogged down in details.  Summify streamlines your reading experience, empowering you to learn more in less time."
-                        skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Tailwind", "Nodejs", "Express", "Postgresql"]}
+                        skillsArray={["JavaScript", "HTML", "CSS", "Redux", "Vite", "Tailwind", "Nodejs", "Express", "Postgresql"]}
                     />
                 </div>
                 <div>
@@ -116,42 +116,22 @@ export default function Projects() {
                         skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Express", "Nodejs", "Postgresql"]}
                     />
                 </div>
-                {/* <div>
-                    <ProjectLeft
-                        title="Portfolio v1"
-                        shortDescription="My first iteration at a personal website before the current redesign."
-                        siteLink="https://ben-portfolio-v1.netlify.app/"
-                        sourceCodeLink="https://github.com/bdgcypher/portfolio-v1"
-                        designLink={null}
-                        img1="bg.jpg"
-                        img2="bg3.png"
-                        img3="bg2.png"
-                        header="Let me introduce myself"
-                        longDescription="This webpage was my initial portfolio. It domonstrates knowledge in React.js, 
-                        web-hooks, HTML, CSS, Scroll Effects, multiple page integration, and decent Web-Design. 
-                        Obviously the look and feel of this site didn't feel quite right because I redesigned it to what you see now! 
-                        Do you think I improved on anything?"
-                        skillsArray={["JavaScript", "HTML", "CSS", "React"]}
-                    />
-                </div>
                 <div>
-                    <ProjectRight
-                        title="TRAVRSE"
-                        shortDescription="My first website design!"
-                        siteLink="https://traverse-web.netlify.app/"
-                        sourceCodeLink="https://github.com/bdgcypher/traverse-web"
+                    <ProjectLeft
+                        title="Web Projects"
+                        shortDescription="A few web projects/games completed at Springboard."
+                        siteLink="https://ksingletary.github.io/Jeopardy/"
+                        siteLink2="https://ksingletary.github.io/Memory_Game/"
+                        sourceCodeLink="https://github.com/ksingletary"
                         designLink={null}
-                        img1="traverse.jpg"
-                        img2="traverse2.png"
+                        img1="jeopardy.png"
+                        img2="drumory.png"
                         img3=""
-                        header="Get the ball rolling"
-                        longDescription="Traverse is a travel-guide type website frontend with clean-cut cards, 
-                        fantastic footers, and creative content. Built with React.js, Traverse is a simple, yet elegant beginner javascript Web Project.
-                        This was my first ever React project. Watching youtube tutorials, scrolling stack overflow, and learning how everything worked. 
-                        This was my start to a promising career as a frontend developer."
-                        skillsArray={["JavaScript", "HTML", "CSS", "React"]}
+                        header="Here are a few small web projects!"
+                        longDescription="Web projects completed during my time at Springboard. You can find other projects of mine during my time at Springboard if you view my github."
+                        skillsArray={["JavaScript", "HTML", "CSS"]}
                     />
-                </div>  */}
+                </div>             
             </div>
         </div >
     )

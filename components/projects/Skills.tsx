@@ -1,5 +1,5 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiNodedotjs, SiExpress, SiVite, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiRedux, SiNodedotjs, SiExpress, SiVite, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
 
 export default function Skills({ skillsArray }: { skillsArray: Array<string> }) {
 
@@ -42,6 +42,18 @@ export default function Skills({ skillsArray }: { skillsArray: Array<string> }) 
                                         <SiCss3 title="CSS logo" className="text-blue-500" />
                                     </span>
                                     CSS
+                                </li>
+                            </>
+                        ) : (null)
+                    }
+                    {
+                        skillsArray.includes("Redux") ? (
+                            <>
+                                <li className="flex">
+                                    <span className="mr-2">
+                                        <SiRedux title="redux logo" className="text-orange-400" />
+                                    </span>
+                                    Redux
                                 </li>
                             </>
                         ) : (null)
