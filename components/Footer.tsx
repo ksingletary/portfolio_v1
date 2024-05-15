@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi"
-import { BsFillArrowUpCircleFill, BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { BsFillArrowUpCircleFill, BsLinkedin } from 'react-icons/bs'
+import { SiLibreofficewriter } from "react-icons/si";
 import TypeIt from "typeit-react";
 
 
@@ -33,11 +34,11 @@ const navigation = [
         ),
     },
     {
-        name: 'Instagram',
-        href: '',
+        name: 'Resume',
+        href: 'https://drive.google.com/file/d/1CRvWFt9U8F6RuhT7k28hTuONsty0NxgT/view?usp=sharing',
         target: '_blank',
         icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
-            <BsInstagram className="text-2xl" />
+            <SiLibreofficewriter className="text-2xl" />
         ),
     },
     {

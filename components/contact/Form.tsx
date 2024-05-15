@@ -54,18 +54,18 @@ export default function Form() {
                             <div className="col-span-2 lg:col-span-1">
                                 <div className=" relative ">
                                     <label htmlFor="name" className="ml-2 text-black dark:text-white">Name</label>
-                                    <input name="name" type="text" value={name} onChange={(e) => setName(e.target.value)} id="contact-form-name" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="john doe" />
+                                    <input name="name" type="text" value={name} onChange={(e) => setName(e.target.value)} id="contact-form-name" className=" rounded-lg  flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx dark:text-white text-black placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="john doe" />
                                 </div>
                             </div>
                             <div className="col-span-2 lg:col-span-1">
                                 <div className=" relative ">
                                     <label htmlFor="email" className="ml-2 text-black dark:text-white">Email</label>
-                                    <input name="email" type="email" id="contact-form-email" value={email} onChange={(e) => setEmail(e.target.value)} className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="you@example.com" />
+                                    <input name="email" type="email" id="contact-form-email" value={email} onChange={(e) => setEmail(e.target.value)} className=" rounded-lg dark:text-white flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white dark:bg-onyx text-black placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600" placeholder="you@example.com" />
                                 </div>
                             </div>
                             <div className="col-span-2">
                                 <label htmlFor="message" className="ml-2 text-black dark:text-white">Message</label>
-                                <textarea name="message" id="comment" placeholder="enter a message" rows={10} cols={40} value={message} onChange={(e) => setMessage(e.target.value)} className="flex-1 w-full px-4 py-2 text-base text-black placeholder-gray-400 bg-white dark:bg-onyx border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600">
+                                <textarea name="message" id="comment" placeholder="enter a message" rows={10} cols={40} value={message} onChange={(e) => setMessage(e.target.value)} className="flex-1 w-full px-4 py-2 text-base text-black dark:text-white placeholder-gray-400 bg-white dark:bg-onyx border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent invalid:border-red-600">
                                 </textarea>
                             </div>
                             <p id="messageSent" className="col-span-2 hidden text-center text-gray-600 dark:text-gray-400">Message sent. Thanks for reaching out!</p>

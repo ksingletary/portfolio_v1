@@ -5,12 +5,12 @@ import TypeIt from "typeit-react";
 export default function Hero() {
 
     return (
-        <div id="home" className="h-full pt-10 md:pt-40 bg-gray-800 dark:bg-red text-black dark:text-white">
+        <div id="home" className="h-full pt-10 md:pt-40 bg-tertiary dark:bg-raisin text-black dark:text-white">
             <div id="homeSection" className="page-section px-2 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mt-14 mb-16 justify-center">
-                            <img src="/manOnComp.png" alt="Man on comp sitting on couch" className="w-2/3" />
+                            <img src="/me.jpg" alt="pic of me" className="w-2/3" />
                         </div>
                     </Tilt>
 
@@ -31,17 +31,17 @@ export default function Hero() {
                     </div>
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <img src="/me.jpg" alt="Man on computer looking at code" className="w-2/3 rounded-full" />
+                            <img src="/me.jpg" alt="pic of me" className="w-2/3 rounded-full" />
                         </div>
                     </Tilt>
 
                 </div>
             </div>
             <svg className="-mt-0 lg:-mt-10 lg:-mt20 block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="black" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
+                <path fill="#FCFCFC" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
             <svg className="-mt-0 lg:-mt-10 lg:-mt20 hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="black" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
+                <path fill="#000000" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
         </div>
     )

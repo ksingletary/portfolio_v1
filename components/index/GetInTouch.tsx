@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 export default function GetInTouch() {
 
     return (
-        <div className="h-full py-10 md:py-40 bg-tertiary dark:bg-raisin text-black dark:text-white dark:bg-gray-800">
+        <div className="h-full py-10 md:py-40 bg-tertiary dark:bg-raisin text-black dark:text-white">
             <div className="px-4 md:px-20">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
@@ -20,7 +20,7 @@ export default function GetInTouch() {
                         <p className="mb-8 ml-0 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                             Schedule a time to meet. I can't wait to hear your idea!
                         </p>
-                        <a href="/contact" className="h-11 w-48 ml-0 md:ml-10 px-8 py-2 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 font-semibold text-center text-white text-xl rounded-full shadow-xl bg-pink-700 dark:shadow-gray-900">
+                        <a href="/contact" className="h-11 w-48 ml-0 md:ml-10 px-8 py-2 bg-primary hover:bg-secondary transform ease-in-out duration-300 hover:-translate-y-1 font-semibold text-center text-white text-xl rounded-full shadow-xl dark:shadow-gray-900">
                             Let's do this!
                         </a>
                     </div>

@@ -12,20 +12,30 @@ export default function ProjectRight(
                 <div className="to-animate from-left flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 font-bold leading-none tracking-tight text-black dark:text-white sm:text-4xl">
                     <h1>{title}</h1>
                     <span className="mx-8" />
+
                     <a target="_blank" aria-label="website link" href={siteLink}>
-                        <MdDevices className="ml-4" />
+                        <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
+                            <MdDevices className="ml-4" />
+                        </div>
                     </a>
+
                     {sourceCodeLink && (
                         <a target="_blank" aria-label="Source code link" href={sourceCodeLink}>
-                            <BiCodeAlt className="ml-4" />
+                            <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
+                                <BiCodeAlt className="ml-4" />
+                            </div>
                         </a>
                     )}
+
                     {designLink && (
                         <a target="_blank" aria-label="design link" href={designLink}>
-                            <MdOutlinePalette className="ml-4" />
+                            <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
+                                <MdOutlinePalette className="ml-4" />
+                            </div>
                         </a>
                     )}
                 </div>
+
                 <p className="to-animate from-left text-lg text-gray-700 dark:text-gray-400 md:text-xl">
                     {shortDescription}
                 </p>
