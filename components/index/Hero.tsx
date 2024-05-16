@@ -1,6 +1,8 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import TypeIt from "typeit-react";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
 
@@ -10,20 +12,20 @@ export default function Hero() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mt-14 mb-16 justify-center">
-                            <img src="/me.jpg" alt="pic of me" className="w-2/3" />
+                            <Image src="/me.jpg" alt="pic of me" className="w-2/3" />
                         </div>
                     </Tilt>
 
                     <div className="flex flex-col h-60 w-full max-w-xl">
                         <TypeIt options={{ speed: 10, waitUntilVisible: true }}>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;h1&#62;</p>
-                            <h1 className="ml-6 md:ml-10 text-black dark:text-white font-semibold text-4xl md:text-5xl lg:text-6xl">Hello, World! I'm Keith</h1>
+                            <h1 className="ml-6 md:ml-10 text-black dark:text-white font-semibold text-4xl md:text-5xl lg:text-6xl">Hello, World! I&apos;m Keith</h1>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/h1&#62;</p>
                             <p className="mt-2 text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;p&#62;</p>
                             <div className="flex flex-row">
                                 <div className="ml-6 md:ml-10 text-black dark:text-white text-lg md:text-2xl">
                                     Frontend 
-                                    <a href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-orange-500 hover:text-orange-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Developer /&#62;</b></a>                                 
+                                    <Link href="https://github.com/ksingletary" target="_blank" className="text-xl mx-2 text-orange-500 hover:text-orange-400 transition duration-300 ease-in-out md:text-3xl"><b>&#60;Developer /&#62;</b></Link>                                 
                                 </div>
                             </div>
                             <p className="text-gray-600 dark:text-gray-400 text-md md:text-xl">&#60;/p&#62;</p>
@@ -31,7 +33,7 @@ export default function Hero() {
                     </div>
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <img src="/me.jpg" alt="pic of me" className="w-2/3 rounded-full" />
+                            <Image src="/me.jpg" alt="pic of me" className="w-2/3 rounded-full" />
                         </div>
                     </Tilt>
 

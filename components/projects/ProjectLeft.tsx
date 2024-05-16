@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
 import Skills from "./Skills";
 import { BiCodeAlt } from "react-icons/bi";
 import { MdDevices, MdOutlinePalette } from "react-icons/md";
@@ -12,29 +14,29 @@ export default function ProjectLeft(
                 <div className="to-animate from-left flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 font-bold leading-none tracking-tight text-black dark:text-white sm:text-4xl">
                     <h1>{title}</h1>
                     <span className="mx-8" />
-                    <a target="_blank" aria-label="website link" href={siteLink}>
+                    <Link target="_blank" aria-label="website link" href={siteLink}>
                         <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                             <MdDevices className="ml-4" />
                         </div>
-                    </a>
+                    </Link>
                     {siteLink2 && (
-                        <a target="_blank" aria-label="second website link" href={siteLink2}>
+                        <Link target="_blank" aria-label="second website link" href={siteLink2}>
                             <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                                 <MdDevices className="ml-4" />
                             </div>
-                        </a>
+                        </Link>
                     )}
-                    <a target="_blank" aria-label="source code link" href={sourceCodeLink}>
+                    <Link target="_blank" aria-label="source code link" href={sourceCodeLink}>
                         <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                             <BiCodeAlt className="ml-4" />
                         </div>
-                    </a>
+                    </Link>
                     {designLink && (
-                        <a target="_blank" aria-label="design link" href={designLink}>
+                        <Link target="_blank" aria-label="design link" href={designLink}>
                             <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                                 <MdOutlinePalette className="ml-4" />
                             </div>
-                        </a>
+                        </Link>
                     )}
                 </div>
                 <p className="to-animate from-left text-lg text-gray-700 dark:text-gray-400 md:text-xl">
@@ -55,21 +57,21 @@ export default function ProjectLeft(
                 </div>
                 <div className="to-animate from-right grid grid-cols-2 gap-5">
                     {img1 && (
-                        <img
+                        <Image
                             className="object-cover w-full col-span-2 rounded shadow-lg"
                             src={img1}
                             alt="Project image"
                         />
                     )}
                     {img2 && (
-                        <img
+                        <Image
                             className="object-cover w-full rounded shadow-lg"
                             src={img2}
                             alt="Project image"
                         />
                     )}
                     {img3 && (
-                        <img
+                        <Image
                             className="object-cover w-full rounded shadow-lg"
                             src={img3}
                             alt="Project image"

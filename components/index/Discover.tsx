@@ -1,5 +1,7 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Discover() {
 
@@ -42,7 +44,7 @@ export default function Discover() {
                 <div className="flex flex-col lg:flex-row gap-6">
                     <a target="_blank" href="https://reactjobly-frontend-mf2g.onrender.com" aria-label="View Item" className="discover from-bottom first h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
-                            <img
+                            <Image
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/jobly2.png"
                                 alt="jobly pic"
@@ -57,7 +59,7 @@ export default function Discover() {
                     </a>
                     <a target="_blank" href="https://cfacapcentre-steeplechase.netlify.app/" aria-label="View Item" className="discover from-bottom second h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
-                            <img
+                            <Image
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/cfa0.png"
                                 alt="chick-fil-a site page"
@@ -72,7 +74,7 @@ export default function Discover() {
                     </a>
                     <a target="_blank" href="https://voyagr.onrender.com/voyagr" aria-label="View Item" className="discover from-bottom third h-auto">
                         <div className="relative overflow-hidden transition duration-200 transform hover:-translate-y-2 group rounded shadow-md hover:shadow-lg dark:shadow-gray-900">
-                            <img
+                            <Image
                                 className="object-contain w-full transform duration-300 ease-in-out group-hover:scale-125"
                                 src="/voyagr1.png"
                                 alt="Travel website homepage"
@@ -87,7 +89,7 @@ export default function Discover() {
                     </a>
                 </div>
                 <div className="text-center mt-8">
-                    <a
+                    <Link
                         href="/discover"
                         aria-label=""
                         className="discover from-bottom third inline-flex items-center font-semibold transition-colors duration-200 text-xl text-primary hover:text-secondary"
@@ -100,7 +102,7 @@ export default function Discover() {
                         >
                             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                         </svg>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div >

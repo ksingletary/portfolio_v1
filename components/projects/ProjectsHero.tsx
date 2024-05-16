@@ -3,13 +3,15 @@ import Tilt from 'react-parallax-tilt';
 import { BiArrowBack } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiJavascript, SiTypescript, SiHtml5, SiReact, SiNodedotjs, SiCss3, SiFigma, SiTailwindcss, SiPython, SiPostgresql, SiFlask } from 'react-icons/si'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ProjectsHero() {
   return (
     <div id="home" className="pt-4 pl-4 bg-white dark:bg-black">
-      <a href="/" aria-label="back button" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
+      <Link href="/" aria-label="back button" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
         <BiArrowBack />
-      </a>
+      </Link>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
         <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
@@ -19,7 +21,7 @@ export default function ProjectsHero() {
                 Projects
               </h2>
               <p className="text-lg text-gray-800 dark:text-gray-300 md:text-xl">
-                I'm diving into the tech world and have used my creative skills to collaborate on projects with startups, and have been directly contracted with companies to build beautiful, responsive websites. 
+                I&apos;m diving into the tech world and have used my creative skills to collaborate on projects with startups, and have been directly contracted with companies to build beautiful, responsive websites. 
                 My contributions span brainstorming user experiences, designing user interfaces, and crafting reusable components, demonstrating versatility and a strong foundation in web development.
               </p>
             </div>
@@ -113,7 +115,7 @@ export default function ProjectsHero() {
           <div>
             <Tilt>
               <div className="to-animate scale-up flex justify-center">
-                <img src="/MeDesk.svg" alt="Man sitting with laptop" className="w-2/3" />
+                <Image src="/MeDesk.svg" alt="Man sitting with laptop" className="w-2/3" />
               </div>
             </Tilt>
           </div>

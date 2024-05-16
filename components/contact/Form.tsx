@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import emailjs from '@emailjs/browser';
 import { BiArrowBack } from "react-icons/bi";
+import Link from "next/link";
 
 export default function Form() {
 
@@ -42,9 +43,9 @@ export default function Form() {
     return (
         <div className="h-screen p-4 bg-white dark:bg-black">
             <div className="px-4">
-                <a href="/" aria-label="back button" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
+                <Link href="/" aria-label="back button" className="text-primary hover:text-secondary text-4xl transition ease-in-out duration-300">
                     <BiArrowBack />
-                </a>
+                </Link>
                 <form onSubmit={handleSubmit} className="to-animate from-bottom mx-auto mt-10 flex w-full max-w-xl space-x-3 ">
                     <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10 bg-tertiary rounded-lg shadow-xl dark:shadow-gray-900 dark:bg-onyx">
                         <div className="mb-6 text-3xl text-center text-black dark:text-white">

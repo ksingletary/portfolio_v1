@@ -1,6 +1,8 @@
 import Skills from "./Skills";
 import { BiCodeAlt, BiLinkExternal } from "react-icons/bi"
 import { MdDevices, MdOutlinePalette } from "react-icons/md";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function ProjectRight(
     { title, shortDescription, siteLink, sourceCodeLink, designLink, img1, img2, img3, header, longDescription, skillsArray }:
@@ -13,26 +15,26 @@ export default function ProjectRight(
                     <h1>{title}</h1>
                     <span className="mx-8" />
 
-                    <a target="_blank" aria-label="website link" href={siteLink}>
+                    <Link target="_blank" aria-label="website link" href={siteLink}>
                         <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                             <MdDevices className="ml-4" />
                         </div>
-                    </a>
+                    </Link>
 
                     {sourceCodeLink && (
-                        <a target="_blank" aria-label="Source code link" href={sourceCodeLink}>
+                        <Link target="_blank" aria-label="Source code link" href={sourceCodeLink}>
                             <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                                 <BiCodeAlt className="ml-4" />
                             </div>
-                        </a>
+                        </Link>
                     )}
 
                     {designLink && (
-                        <a target="_blank" aria-label="design link" href={designLink}>
+                        <Link target="_blank" aria-label="design link" href={designLink}>
                             <div className="flex flex-row max-w-lg mb-6 font-sans text-3xl transition ease-in-out duration-300 hover:-translate-y-2 font-bold leading-none tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-primary sm:text-4xl cursor-pointer">
                                 <MdOutlinePalette className="ml-4" />
                             </div>
-                        </a>
+                        </Link>
                     )}
                 </div>
 
@@ -42,9 +44,9 @@ export default function ProjectRight(
             </div>
             <div className="grid max-w-screen-xl gap-8 lg:grid-cols-2 sm:mx-auto">
                 <div className="to-animate from-left grid grid-cols-2 gap-5">
-                    {img1 && <img className="object-cover w-full col-span-2 rounded shadow-lg" src={img1} alt="Project image" />}
-                    {img2 && <img className="object-cover w-full rounded shadow-lg" src={img2} alt="Project image" />}
-                    {img3 && <img className="object-cover w-full rounded shadow-lg" src={img3} alt="Project image" />}
+                    {img1 && <Image className="object-cover w-full col-span-2 rounded shadow-lg" src={img1} alt="Project image" />}
+                    {img2 && <Image className="object-cover w-full rounded shadow-lg" src={img2} alt="Project image" />}
+                    {img3 && <Image className="object-cover w-full rounded shadow-lg" src={img3} alt="Project image" />}
                 </div>
                 <div className="to-animate from-right flex flex-col">
                     <div className="pb-4 mb-4">
