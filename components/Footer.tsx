@@ -3,6 +3,7 @@ import { HiOutlineMail } from "react-icons/hi"
 import { BsFillArrowUpCircleFill, BsLinkedin } from 'react-icons/bs'
 import { SiLibreofficewriter } from "react-icons/si";
 import TypeIt from "typeit-react";
+import Link from "next/link";
 
 
 const scrollPageTo = (id: string) => {
@@ -74,10 +75,10 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
                 <div className="mt-10 flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} target={item.target} onClick={item.onClick} className="text-gray-400 hover:text-gray-500">
+                        <Link key={item.name} href={item.href ?? '#'} target={item.target} onClick={item.onClick} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
-                        </a>
+                        </Link>
                     ))}
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">

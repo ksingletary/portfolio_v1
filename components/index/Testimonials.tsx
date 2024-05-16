@@ -1,5 +1,6 @@
 import React from "react";
 import TypeIt from "typeit-react";
+import Image from "next/image";
 
 export default function Testimonials() {
 
@@ -48,10 +49,10 @@ export default function Testimonials() {
                             </div>
                             <p className="mb-5 text-xl text-gray-700 dark:text-gray-300">
                                 Keith brings incredible efficiency to his role as a frontend developer. 
-                                He's a creative problem-solver and a fantastic collaborator, consistently exceeding expectations. Having him on the team is a true advantage.
+                                He&apos;s a creative problem-solver and a fantastic collaborator, consistently exceeding expectations. Having him on the team is a true advantage.
                             </p>
                             <div className="flex items-center">
-                                <img
+                                <Image
                                     src="/talenthouseLLC.png"
                                     alt="talenthouse pic"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
@@ -80,7 +81,7 @@ export default function Testimonials() {
                                 I know it will get done and that he will do it well.
                             </p>
                             <div className="flex items-center">
-                                <img
+                                <Image
                                     src="/cfa.svg"
                                     alt="picture of cfa"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
@@ -108,7 +109,7 @@ export default function Testimonials() {
                                 During his time at our bootcamp, he worked well with everyone and was always giving his best.
                             </p>
                             <div className="flex items-center">
-                                <img
+                                <Image
                                     src="/blankHead.jpeg"
                                     alt="picture of blank head"
                                     className="object-cover mr-3 w-16 h-16 rounded-full shadow-sm"
