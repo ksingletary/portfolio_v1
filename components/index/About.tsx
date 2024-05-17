@@ -11,13 +11,13 @@ export default function About() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mb-16 justify-center">
-                            <Image src="/manStanding.png" alt="Man standing with swirling galaxy illustration behind him" className="w-4/5" />
+                            <Image src="/manStanding.png" alt="Man standing with swirling galaxy illustration behind him" width={500} height={400} className="" />
                         </div>
                     </Tilt>
 
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <Image src="/manStanding.png" alt="Man standing with swirling galaxy illustration behind him" className="w-5/6" />
+                            <Image src="/manStanding.png" alt="Man standing with swirling galaxy illustration behind him" width={500} height={400}  className="" />
                         </div>
                     </Tilt>
 

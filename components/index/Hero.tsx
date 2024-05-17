@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mt-14 mb-16 justify-center">
-                            <Image src="/me.jpg" alt="pic of me" className="w-2/3" />
+                            <Image src="/me.jpg" alt="pic of me" width={300} height={200} className="rounded-full" />
                         </div>
                     </Tilt>
 
@@ -33,16 +33,16 @@ export default function Hero() {
                     </div>
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <Image src="/me.jpg" alt="pic of me" className="w-2/3 rounded-full" />
+                            <Image src="/me.jpg" alt="pic of me" width={300} height={200} className="rounded-full" />
                         </div>
                     </Tilt>
 
                 </div>
             </div>
-            <svg className="-mt-0 lg:-mt-10 lg:-mt20 block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <svg className="-mt-0 lg:-mt-0 lg:-mt20 block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#FCFCFC" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
-            <svg className="-mt-0 lg:-mt-10 lg:-mt20 hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <svg className="-mt-0 lg:-mt-0 lg:-mt20 hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#000000" fillOpacity="1" d="M0,224L360,64L720,288L1080,160L1440,256L1440,320L1080,320L720,320L360,320L0,320Z"></path>
             </svg>
         </div>

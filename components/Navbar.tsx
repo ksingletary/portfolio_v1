@@ -23,7 +23,7 @@ export default function SectionNavbar() {
             setDarkMode(false);
         }
     }
-
+    //switch theme....
     const switchTheme = () => {
         if (darkMode === true) {
             localStorage.setItem('color-theme', 'light');

@@ -11,7 +11,7 @@ export default function GetInTouch() {
                 <div className="flex flex-col lg:flex-row justify-center">
                     <Tilt>
                         <div className="to-animate scale-up flex flex-row lg:hidden mb-16 justify-center">
-                            <Image src="/handshake.png" alt="handshake" className="w-2/3" />
+                            <Image src="/handshake.png" alt="handshake" width={500} height={400} className="" />
                         </div>
                     </Tilt>
 
@@ -28,7 +28,7 @@ export default function GetInTouch() {
 
                     <Tilt>
                         <div className="to-animate scale-up hidden lg:flex justify-center">
-                            <Image src="/handshake.png" alt="People working together at a desk" className="w-2/3" />
+                            <Image src="/handshake.png" alt="People working together at a desk" width={500} height={400} className="" />
                         </div>
                     </Tilt>
 

@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio v2
 
-## Getting Started
+Welcome to my [portfolio website!](https://keithsingletary.me)
 
-First, run the development server:
+This platform serves as a showcase for my personality, skills, and projects to prospective employers, colleagues, friends, and the wider audience. Crafted with Next.js, Tailwind CSS, and various animations and libraries, this website highlights my role as a Frontend React Developer and UI/UX Designer, presenting my projects, skills, and accomplishments. It also offers a toggle switch for light and dark themes and incorporates smooth scrolling effects.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Home Page:** Provides a concise introduction to my role as a Frontend React Developer.
+- **Discover Page:** Lists my projects with brief descriptions and links to their live versions and Github repositories.
+- **Contact Page:** Allows users or potential employers to share their contact information and a brief message.
+- **Light and Dark Theme Toggle:** Enables users to switch between light and dark themes.
+- **Smooth Scrolling Effects:** Navigates seamlessly to different sections of the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This React project, built on the Next.js platform with TypeScript, consists of three main pages and then segmented into component pieces styled with Tailwind CSS.
 
-## Learn More
+- **Next.js:** A popular React framework for constructing server-side rendered web applications.
+- **Tailwind CSS:** A utility-first CSS framework for swiftly building responsive web designs.
+- **React-icons:** A library of free SVG icons for common UI components and actions.
 
-To learn more about Next.js, take a look at the following resources:
+## Feedback and Contributions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Your feedback and suggestions for enhancing this portfolio website are highly valued. Please don't hesitate to open an issue or submit a pull request on GitHub. Your contributions are always appreciated!
