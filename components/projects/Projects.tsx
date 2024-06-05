@@ -43,7 +43,7 @@ export default function Projects() {
                         img2="talenthouse.png"
                         img3=""
                         header="Breaking into the tech world"
-                        longDescription="Since mid-2023, I've been a contracted Frontend Developer at Talenthouse, a startup that uses AI 
+                        longDescription="I've been working as a Frontend Developer at Talenthouse, a startup that uses AI 
                         to revolutionize talent acquisition.  I've wielded React to help craft a dynamic web app, but my skills extended beyond the frontlines - 
                         I've dipped my toes in backend development as well. While I wouldn't call myself a full-stack engineer just yet, I'm always eager to learn and grow across the tech stack.
                         "
@@ -81,6 +81,23 @@ export default function Projects() {
                         longDescription="I leveraged my Frontend development skills through freelance contracts, developing for two Chick-fil-A free-standing stores. I built a responsive Chick-fil-A website using React Vite & Tailwind CSS for the stores in Largo & Capitol Heights, MD. 
                         Collaboration was key - working with a corporate liaison, General Managers, and corporate engineers ensured brand adherence, local details, and a user-friendly design that reflects the Chick-fil-A experience online."
                         skillsArray={["JavaScript", "HTML", "CSS", "Vite", "Tailwind"]}
+                    />
+                </div>
+                <div>
+                    <ProjectLeft
+                        title="Beat Up Bears"
+                        shortDescription="An NFT project based on a collection I created and designed called Beat Up Bears."
+                        siteLink="https://github.com/ksingletary/BeatUpBears"
+                        sourceCodeLink="https://github.com/ksingletary/BeatUpBears"
+                        designLink={null}
+                        img1="BUB3.png"
+                        img2="BUB2.png"
+                        img3="BUB4.png"
+                        header="Pioneering NFTs in Web3"
+                        longDescription="I created and designed a unique Beat Up Bears NFT collection a few years ago, a series of 8,888 unique, battle-worn bear plushie characters. 
+                        Championing the beat up, but okay spirit, the collection resonated with me because of its potential in the Web3 space. 
+                        Now that I&apos;m adept at making sleek looking frontends, it was about time to create an official Beat Up Bears frontend site!"
+                        skillsArray={["Javascript", "HTML", "CSS", "Nextjs", "Tailwind", "React"]}
                     />
                 </div>
                 <div>
@@ -130,6 +147,22 @@ export default function Projects() {
                         header="Here are a few small web projects!"
                         longDescription="Web projects completed during my time at Springboard. You can find other projects of mine during my time at Springboard by viewing my github."
                         skillsArray={["JavaScript", "HTML", "CSS"]}
+                    />
+                </div>
+                <div>
+                    <ProjectRight
+                        title="My Portfolio"
+                        shortDescription="The portfolio you see now I created using modern technologies like React to show off my skills and everything about me."
+                        siteLink="https://keithsingletary.me/"
+                        sourceCodeLink="https://github.com/ksingletary/portfolio_v1"
+                        designLink={null}
+                        img1="portfolio1.png"
+                        img2="portfolio2.png"
+                        img3=""
+                        header="A Glimpse into My Skills"
+                        longDescription="What you&apos;re viewing now is my initial portfolio. It demonstrates knowledge in React.js, web-hooks, HTML, CSS, Scroll Effects, multiple page integration, and decent Web-Design. 
+                        I hope if you&apos;re viewing this you like what you see. There will most likely be another version in the future, but for now enjoy your time here!"
+                        skillsArray={["JavaScript", "HTML", "CSS", "Nextjs", "React", "Tailwind"]}
                     />
                 </div>             
             </div>

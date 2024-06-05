@@ -35,14 +35,6 @@ const navigation = [
         ),
     },
     {
-        name: 'Resume',
-        href: 'https://drive.google.com/file/d/1CRvWFt9U8F6RuhT7k28hTuONsty0NxgT/view?usp=sharing',
-        target: '_blank',
-        icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
-            <SiLibreofficewriter className="text-2xl" />
-        ),
-    },
-    {
         name: 'Email',
         href: 'mailto:keithsingletary@gmail.com',
         icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
